@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">BMItest</string>
+    <string name="TextView1">BMI指数测试</string>
+    <string name="height_hint">请输入身高</string>
+    <string name="weight_hint">请输入体重</string>
+    <string name="button">开始计算</string>
+    <string name="TextView3">result</string>
+    <string name="image_back">返回键</string>
+    <string name="开发者信息">1.0.1 bate    designed by kizai</string>
+    <string name="result">Result</string>
+    <string name="imageShow">1</string>
+    <string name="textview2">测试结果为</string>
+    <string name="textview3">身高(cm)：</string>
+    <string name="textview4">体重(kg)：</string>
+    <string name="toast_zero">身高不能为0！！！</string>
+    <string name="toast_zero1">体重不能为0！！！</string>
+    <string name="toast_warming">输入有误！请重新输入！</string>
+    <string name="thin">体重偏低，偏瘦，要多吃肉肉！！</string>
+    <string name="slim">恭喜！你的身材很苗条！要继续保持喔！</string>
+    <string name="fat">体重偏重，偏胖，要注意饮食啦！！</string>
+    <string name="fater">体重超重，偏肥，手感好过头啦！！</string>
+    <string name="fatest">体重极度超重，建议一天吃半餐咯！！</string>
+    <string name="button2">不服，再测一次</string>
+    <string name="radiobutton">靓仔</string>
+    <string name="radiobutton2">靓女</string>
+    <string name="callman">亲爱的靓仔</string>
+    <string name="callwoman">亲爱的靓女</string>
+    <string name="Sex_show">man</string>
+    <string name="button_aboutme">关于作者</string>
+    <string name="adoutBMI">关于BMI</string>
+    <string name="adout_bmi">体质指数 (Body Mass Index，简称BMI)，是国际最常用来量度体重与身高比例的工具。
+        它利用身高和体重之间的比例去衡量一个人是否过瘦或过肥。体质指数适合所有由18至65岁的人士使用，儿童、发育中的青少年、孕妇、乳母、老人及肌肉发达者除外。其计算公式如下：
+        <b>体质指数(BMI)=体重(kg)/身高 (m)^2</b> EX:75/1.8^2=23.15
+        亚裔成年人请用以下的指引：
+        体质指数 类别 罹病机会*
+        小于 18.5 过轻 某些疾病和某些癌症患病率增高
+        18.5－23.9 正常
+        24－27.9 超重
+        大于 28 肥胖
+        *罹病情况包括乙型糖尿病、血糖过高症、血胰岛素过高症、高血脂症、冠心病、高血压、癌症、痛风症等。
+        该公式可判断人体的健康状况。根据美国有关医学统计：BMI小于16的人和BMI大于30的人死亡率最高。
+        死亡率最低的为BMI在20-22之间的人。
+        有人认为最好看的体形BMI指数值为：
+        女士BMI=19 男士BMI=22
+        以此，可根据身高推算最理想的体重：
+        体形最美女士的体重=19χ身高χ身高
+        体形最美男士的体重=22χ身高χ身高
+        [体质指数的限制]
+       <b> 体质指数是评估体重与身高比例的工具，并不能反映身体脂肪的含量，而脂肪含量过高才是危害健康的因素。
+        专家指出最理想的体重指数是24.99。
+        由于存在误差，所以BMI只能作为评估个人体重和健康状况的多项标准之一。全美卫生研究所（NIH）推荐医生参照以下三项因素评估患者是否超重。
+        BMI腰围——测量腹部脂肪 与肥胖相关疾病的危险因素，如高血压、LDL（“恶性”）胆固醇过高、HDL（“良性”）胆固醇过低、高血糖和吸烟。
+        由于BMI没有把一个人的脂肪比例计算在内，所以一个BMI指数超重的人，实际上可能并非肥胖。举个例子，一个练健身的人，由于体重有很重比例的肌肉，他的BMI指数会超过30。如果他们身体的脂肪比例很低，那就不需要减重。[1]
+        </b>3指标标准
+        传统的是成人体重标准是少于30，但亚洲成人指标近被改为27.5。一个BMI达到23的亚洲成年人被认为是超重，而理想指数是18.5至22.9。
+        数值
+        儿童的BMI数值并不单单适用于成年人。对于成长中的儿童，我们亦可利用他们的BMI值来推算他们是否超重。以上的BMI计算式亦适用于2-20岁的人，但他们的过重及过轻指标，并非由一个固定的BMI值决定。这是因为不同地区的儿童有不同的成长速度，若使用一个固定数值，容易做成错误判断。
+        很多国家及地区每年都会为当地的儿童作身高和体重的统计。这些统计数据，都可以转化成为BMI值，从而再统计出当地儿童的BMI值分布。根据这个分布，地方健康政府可以推算出当地儿童的过重及过轻指标。一般来说，都会采用统计出来的平均BMI值及其标准差值，再计算出其常态分布的最高5%及最低5%作为过重及过轻指标。另一方面，其BMI值位于常态分布的85%-95%区段的儿童，他们都有超重的危机。
+        根据世界卫生组织定下的标准，亚洲人的BMI（体重指标BodyMassIndex)若高于22.9便属于过重。亚洲人和欧美人属于不同人种，WHO的标准不是非常适合中国人的情况，为此制定了中国参考标准：
+        　 WHO标准[1]  亚洲标准 中国标准[2]  相关疾病发病危险性
+        偏瘦 小于18.5 低（但其它疾病危险性增加）
+        正常 18.5-24.9 18.5-22.9 18.5-23.9 平均水平
+        超重 ≥25 ≥23 ≥24 　
+        偏胖 25.0～29.9 23～24.9 24～27.9 增加
+        肥胖 30.0～34.9 25～29.9 ≥28 中度增加
+        重度肥胖 35.0～39.9 ≥30 —— 严重增加
+        极重度肥胖 ≥40.0 非常严重增加
+        最理想的体重指数是22。</string>
+    <string name="name">名字：KIZAI</string>
+    <string name="phone">电话：13537732152</string>
+    <string name="pay">请作者吃棒棒糖</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="pj">请给本应用打分</string>
+    <string name="appname">体质指数测试 BmiTest</string>
+    <string name="todo3">TODO</string>
+    <string name="version">Veision 1.0.5</string>
+    <string name="mail">邮箱：kizai@foxmail.com</string>
+    <string name="button_updata">版本更新>></string>
+    <string name="banquan">Kizai 版权所有</string>
+    <string name="cc3">"Copyright © 2020–2021 Kizai. All Rights Reserved"</string>
+    <string name="updata">"已经是最新版本了"</string>
+    <string name="diy_display">Display</string>
+    <string name="button_sport">运动建议</string>
+    <string name="tv_sport"> </string>
+    <string name="bask">打篮球可以增强体内营养物质的消耗，使整个肌体的代谢能力增强，进而提高食欲。另外，还会促进胃肠蠕动和消化液分泌，改善肝脏和胰腺的功能，
+        从而使整个消化系统的功能得到提高，为人的健康和长寿提供良好的物质保证。</string>
+    <string name="run">经常跑步可以增强人体的柔韧度，保护心脏，通过跑步增强了人体各部位的抗损伤能力，同时提高供血量，对心脏大脑的健康都有好处，
+        可以缓解疲劳、消除紧张感、消除焦虑，抑郁的情绪，通过锻炼，人的精神可以得到振奋，心情会更加的开朗，对学习，工作都有一定好处。</string>
+    <string name="shan">减肥最基本的道理是消耗的热量大于吸收的热量，运动是人体最主要的能量消耗渠道，但并不是说参加什么运动都可以取得良好减肥作用。理想的减肥运动方式是强度较低的运动，
+        由于供氧充分，持续时间长，总的能量消耗多。爬山正是这样一种运动强度适宜，持续时间较长的运动方式，因而具有独到的减肥效果。</string>
+    <string name="swing">1、健身的作用。游泳是一项比较消耗体力的活动，它能够提高身体的体能，长期游泳可以使自己保持很好的体力。2、有减肥的作用。游泳，它的体力消耗量比较大，
+        可以消耗我们体内的脂肪，能够通过游泳来进行塑身、减肥。</string>
+    <string name="nosport">世界卫生组织最新统计数字表明，每年全球有两百万人死于“身体缺乏活动”，所以，为了自己，也为爱你的人和你爱的人，赶快运动起来，哪怕是最简单的步行!不要为了便捷而放弃健康，放弃生命｡</string>
+    <string name="textview9">(cm)</string>
+    <string name="textview12">(kg)</string>
+</resources>
